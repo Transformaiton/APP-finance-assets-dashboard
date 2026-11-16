@@ -1,15 +1,19 @@
 {
-  "name": "my-money-dashboard",
-  "version": "0.1.0",
+  "name": "finance-assets-dashboard",
+  "version": "1.0.0",
   "private": true,
+  "description": "Finance & Assets Dashboard by Transformaiton.com. A browser-based demo for tracking accounts, debt, and spending.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "dependencies": {
-    "next": "14.2.15",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "next": "16.4.6",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
   }
 }
